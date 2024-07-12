@@ -8,7 +8,7 @@ function dicebutton(){
     let image = document.getElementById('image');
             image.classList.toggle('rotate')
     var num = Math.ceil(Math.random()*6)
-    console.log(num);
+    // console.log(num);
 if(num == "1"){
     dice.src = imge1;
 }else if(num == "2"){
